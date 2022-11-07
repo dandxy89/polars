@@ -284,8 +284,8 @@ polars-sql = { version = "0.2.0", path = "./polars-sql", default-features = fals
 polars-time = { version = "0.25.1", path = "./polars-time", default-features = false, optional = true }
 
 [dev-dependencies]
-ahash = "0.7"
-criterion = "0.3"
+ahash = "0.8"
+criterion = "0.4"
 rand = "0.8"
 
 # see: https://bheisler.github.io/criterion.rs/book/faq.html
