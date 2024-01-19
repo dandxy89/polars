@@ -1554,9 +1554,9 @@ dependencies = [
 
 [[package]]
 name = "h2"
-version = "0.3.21"
+version = "0.3.24"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "91fc23aa11be92976ef4729127f1a74adf36d8436f7816b185d18df956790833"
+checksum = "bb2c4422095b67ee78da96fbb51a4cc413b3b25883c7717ff7ca1ab31022c9c9"
 dependencies = [
  "bytes",
  "fnv",
@@ -1564,7 +1564,7 @@ dependencies = [
  "futures-sink",
  "futures-util",
  "http",
- "indexmap 1.9.3",
+ "indexmap",
  "slab",
  "tokio",
  "tokio-util",
@@ -1603,12 +1603,6 @@ name = "hash_hasher"
 version = "2.0.3"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "74721d007512d0cb3338cd20f0654ac913920061a4c4d0d8708edb3f2a698c0c"
-
-[[package]]
-name = "hashbrown"
-version = "0.12.3"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "8a9ee70c43aaf417c914396645a0fa852624801b24ebb7ae78fe8272889ac888"
 
 [[package]]
 name = "hashbrown"
@@ -1777,16 +1771,6 @@ checksum = "7d20d6b07bfbc108882d88ed8e37d39636dcc260e15e30c45e6ba089610b917c"
 dependencies = [
  "unicode-bidi",
  "unicode-normalization",
-]
-
-[[package]]
-name = "indexmap"
-version = "1.9.3"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "bd070e393353796e801d209ad339e89596eb4c8d430d18ede6a1cced8fafbd99"
-dependencies = [
- "autocfg",
- "hashbrown 0.12.3",
 ]
 
 [[package]]
@@ -2652,7 +2636,7 @@ dependencies = [
  "getrandom",
  "hashbrown 0.14.2",
  "hex",
- "indexmap 2.1.0",
+ "indexmap",
  "lexical-core",
  "lz4",
  "multiversion",
@@ -2689,7 +2673,7 @@ dependencies = [
  "comfy-table",
  "either",
  "hashbrown 0.14.2",
- "indexmap 2.1.0",
+ "indexmap",
  "itoap",
  "ndarray",
  "num-traits",
@@ -2796,7 +2780,7 @@ dependencies = [
  "chrono",
  "fallible-streaming-iterator",
  "hashbrown 0.14.2",
- "indexmap 2.1.0",
+ "indexmap",
  "itoa",
  "num-traits",
  "polars-arrow",
@@ -2846,7 +2830,7 @@ dependencies = [
  "either",
  "hashbrown 0.14.2",
  "hex",
- "indexmap 2.1.0",
+ "indexmap",
  "jsonpath_lib",
  "memchr",
  "num-traits",
@@ -2994,7 +2978,7 @@ dependencies = [
  "ahash",
  "bytemuck",
  "hashbrown 0.14.2",
- "indexmap 2.1.0",
+ "indexmap",
  "num-traits",
  "once_cell",
  "polars-error",
@@ -3725,7 +3709,7 @@ version = "1.0.108"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "3d1c7e3eac408d115102c4c24ad393e0821bb3a5df4d506a80f85f7a742a526b"
 dependencies = [
- "indexmap 2.1.0",
+ "indexmap",
  "itoa",
  "ryu",
  "serde",
@@ -4217,7 +4201,7 @@ version = "0.19.15"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "1b5bb770da30e5cbfde35a2d7b9b8a2c4b8ef89548a7a6aeab5c9a576e3e7421"
 dependencies = [
- "indexmap 2.1.0",
+ "indexmap",
  "serde",
  "serde_spanned",
  "toml_datetime",
